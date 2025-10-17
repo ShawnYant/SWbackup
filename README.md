@@ -4,17 +4,17 @@
 
 To manage the backup operation of both Cisco & 
 Huawei devices. Also, firewall devices can be
-included also. Servers are not concerned in 
+included. Servers are not concerned in 
 this version.
 
-This is Version One, it still comes with 
+This is Version One; it still comes with the 
 original codes. UI and further interaction 
 interface are still in progress.
 
-The results are shown in the auto-created fil-
-es, also, there will be a auto-created file 
-named'backup_failures.txt', to record the mis-
-aligned info and mistakes.
+The results are shown in the auto-created file
+-s; also, there will be an auto-created file 
+named 'backup_failures.txt', to record the mis
+-aligned info and mistakes.
 ================================================
 ===================CUG-ShanwYan=================
 ================================================
@@ -22,7 +22,8 @@ aligned info and mistakes.
 Python version-----3.X.X
 Other plugins will need 
 pip3 install XXXXX
-you will find them in the headline of the script file. 
+You will find them in the headline of the script
+file. 
 ================================================
 V2---AutoDetcV2.py
 ================================================
@@ -42,7 +43,8 @@ Operational steps
 格式建立Excel表格，一共四列；命名格式请按照
 Location_CloudName_Device并存到SWBackupList里
 2.文件
-国产设备两个脚本都可以用；其它设备用Cisco+Other.py(还没测试过);
+国产设备两个脚本都可以用；其它设备用Cisco+Other.py
+(还没测试过);
 3.选择正确文件后，
 将文件中def main()函数中的desktop_path填入
 相应的本地地址（不是相对地址），默认存在backup
